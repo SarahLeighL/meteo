@@ -12,30 +12,35 @@
 </head>
 
 <div class="weather-app">
-<body>
-    <header>
-        <form>
-            <input type="search" placeholder="Enter a city..." required>
-            <input type="submit" value="Search">
-        </form>
-    </header>
-    <main>
-        <div>
-            <h1>Milan</h1>
-            <p>
-                Friday 22:11, few clouds
-                <br />
-                Humidity: 71%, Wind 6.17km/h
-            </p>
-        </div>
-        <div> 🌤️ 21°C</div>
-    </main>
+
+    <body>
+        <header>
+            <form class="search-form">
+                <input type="search" placeholder="Enter a city..." required class="search-form-input">
+                <input type="submit" value="Search" class="search-form-button">
+            </form>
+        </header>
+        <main>
+            <div class="weather-app-data">
+                <h1 class="weather-app-city">Milan</h1>
+                <p class="weather-app-details">
+                    Friday 22:11, few clouds
+                    <br />
+                    Humidity: <strong>71%</strong>, Wind <strong>6.17km/h</strong>
+                </p>
+            </div>
+            <div class="weather-app-temperature-container">
+                <div class="weather-app-icon"> 🌤️</div>
+                <div class="weather-app-temperature-value">21</div>
+                <div class="weather-app-unit">°C</div>
+            </div>
+        </main>
 
 
-</body>
-<footer>Coded by <a href="https://github.com/SarahLeighL" target="_blank">Sarah-Leigh Lucas</a>, open-sourced by <a
-        href="https://github.com/SarahLeighL/meteo" target="_blank">GitHub</a>, hosted on <a
-        href="https://lucas-meteo-app.netlify.app/" target="_blank">Netlify</a>
+    </body>
+    <footer>Coded by <a href="https://github.com/SarahLeighL" target="_blank">Sarah-Leigh Lucas</a>, open-sourced by <a
+            href="https://github.com/SarahLeighL/meteo" target="_blank">GitHub</a>, hosted on <a
+            href="https://lucas-meteo-app.netlify.app/" target="_blank">Netlify</a>
     </footer>
 </div>
 
